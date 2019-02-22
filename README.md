@@ -11,9 +11,10 @@ I've developed this on a Raspberry Pi 3 B+, but it may very well work on other d
 1. Download this repository
 1. Open a terminal in the downloaded directory and type "make -j4"
 1. Wait for quite a while
+1. [Enable the OpenGL driver](https://eltechs.com/how-to-enable-opengl-on-raspberry-pi/) for framerates over 2fps
 1. It's finished. To start Etterna, execute the etterna file inside the etterna directory
 
-Note that this script does not install Etterna on the system. That might come later, but for now you'll have to start Etterna in every time through the directory you compiled in.
+Note that this script does not install Etterna on the system. I might add it later, but for now you'll have to start Etterna in every time through the directory you compiled in.
 
 ## Errors?
 
