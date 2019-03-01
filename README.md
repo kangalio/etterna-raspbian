@@ -2,6 +2,8 @@
 
 This repository contains resources and a script to compile Etterna for the Raspberry Pi.
 
+Warning: **This does not completely work yet!** The main menu (including settings) is working, but the game hangs up when you go into the selection screen :(
+
 ## What can you use this for?
 
 I've developed this on a Raspberry Pi 3 B+, but it may very well work on other devices. The [repository](https://github.com/SpottyMatt/raspbian-3b-stepmania-arcade) I loosely based this off of says it's compatible with Raspberry Pi 3B (no plus) as well.
@@ -13,8 +15,8 @@ I've developed this on a Raspberry Pi 3 B+, but it may very well work on other d
 1. Wait for quite a while
 1. [Enable the OpenGL driver](https://eltechs.com/how-to-enable-opengl-on-raspberry-pi/) for framerates over 2fps
 1. Allocate more memory for the graphics:
-    * Type `sudo raspi-config` and navigate into Advanced Options -> Memory Split. Type in 256MB or 512MB and then exit.
-1. It's finished. To start Etterna, execute the etterna file inside the etterna directory
+    * Type `sudo raspi-config` and navigate into Advanced Options -> Memory Split. Type in 256MB and then exit.
+1. It's finished. To start Etterna, execute the etterna file inside the etterna directory. *Remember that this repository isn't completely done: the main menu functions properly, but as soon as you get into the selection screen, everything stops working.*
 
 Note that this script does not install Etterna on the system. I might add it later, but for now you'll have to start Etterna in every time through the directory you compiled in.
 
