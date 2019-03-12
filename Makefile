@@ -23,8 +23,8 @@ package-download:
 download:
 	git clone https://github.com/etternagame/etterna
 	cd etterna
-	# Reset to version 0.64.0
-	git reset --hard 13267c3a4bfcf1c0713b77496ff1a4361e1ce4ed
+	# Reset to version 0.65.1
+	git reset --hard 6cbc98dc75f0805193e5d24e07ed01ef546bf049
 
 .PHONY: prepare
 .ONESHELL:
